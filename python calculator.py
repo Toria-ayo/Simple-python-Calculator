@@ -26,14 +26,15 @@ print("""1: ADDITION
 while True:
     #operation chosen by user
     print('Which operation would you like to carry out, 1/2/3/4/5/6?')
-    try:
-        choice=int(input())
-        if 1<=choice<=6:
-            break
-        else:
-            print('Please enter a number BETWEEN 1 and 6.')     
-    except ValueError:
-        print('Invalid input. Please enter a NUMBER between 1 and 6.')
+    while True:
+        try:
+            choice=int(input())
+            if 1<=choice<=6:
+                break
+            else:
+                print('Please enter a number BETWEEN 1 and 6.')     
+        except ValueError:
+            print('Invalid input. Please enter a NUMBER between 1 and 6.')
 
 
     #Calculation operation begins
@@ -78,4 +79,5 @@ while True:
     if again !='YES':
         print('THANKS FOR USING THIS CALCULATOR')
         break
+
     
