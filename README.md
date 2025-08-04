@@ -17,7 +17,7 @@ A beginner-friendly calculator built with Python. It performs basic operations l
 ## ▶️ How to Use
 
 1. Clone the repo:
-   git clone https://github.com/Toria-ayo/simple-python-calculator.git
+   git clone https://github.com/Toria-ayo/Simple-python-Calculator.git
 2. Navigate to the project folder:
 cd simple-python-calculator
 3. Run the program:
